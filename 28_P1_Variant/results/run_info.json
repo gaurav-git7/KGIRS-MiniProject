@@ -1,0 +1,38 @@
+{
+  "embed_model": "BAAI/bge-small-en-v1.5",
+  "device": "cuda",
+  "gpu": "Tesla T4",
+  "python": "3.13.16",
+  "torch": "2.11.0+cu130",
+  "sentence_transformers": "5.7.0",
+  "transformers": "5.21.0",
+  "datasets": "4.8.5",
+  "smoke": false,
+  "config": {
+    "DATASETS": [
+      "nfcorpus",
+      "hotpotqa"
+    ],
+    "STRATEGIES": [
+      "fixed",
+      "recursive",
+      "semantic"
+    ],
+    "CHUNK_SIZES": [
+      128,
+      256
+    ],
+    "CHUNK_OVERLAP": 0,
+    "PREPEND_TITLE": false,
+    "SEMANTIC_PERCENTILE": 80,
+    "SEMANTIC_MIN_FRAC": 0.25,
+    "SEEDS": [
+      0,
+      1,
+      2
+    ],
+    "HOTPOT_N_QUESTIONS": 500,
+    "NFCORPUS_MAX_QUERIES": null,
+    "DEPTH": 100
+  }
+}

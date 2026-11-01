@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.claude/
+
+# P5: regenerable artefacts
+1_P5_Primary/graphrag_workspace/input/
+1_P5_Primary/graphrag_workspace/output/
+1_P5_Primary/graphrag_workspace/cache/
+1_P5_Primary/graphrag_workspace/logs/
+1_P5_Primary/results/naive_index/
+1_P5_Primary/results_colab_run1_naive_only/results/naive_index/
+1_P5_Primary/colab/p5_code.zip

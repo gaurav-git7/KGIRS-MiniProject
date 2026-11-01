@@ -1,0 +1,2 @@
+Method,Accuracy (%),EM (%),F1 (%),Inference (%),Comparison (%),Temporal (%)
+Naive RAG (baseline) [baseline],44.0 ± 0.0,43.3 ± 1.2,43.8 ± 0.4,90.2 ± 3.4,21.6 ± 3.4,18.8 ± 0.0

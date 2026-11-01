@@ -1,0 +1,15 @@
+Dataset,Strategy,Recall@5,Recall@10,MRR@10,NDCG@10
+HotpotQA subset,No chunking (baseline) [baseline],0.871 ± 0.004,0.922 ± 0.004,0.948 ± 0.011,0.873 ± 0.006
+HotpotQA subset,Fixed-length (128),0.840 ± 0.005,0.907 ± 0.005,0.921 ± 0.011,0.843 ± 0.005
+HotpotQA subset,Fixed-length (256),0.872 ± 0.006,0.921 ± 0.003,0.947 ± 0.013,0.873 ± 0.007
+HotpotQA subset,Recursive (128),0.870 ± 0.004,0.919 ± 0.004,0.947 ± 0.012,0.871 ± 0.006
+HotpotQA subset,Recursive (256),0.871 ± 0.006,0.922 ± 0.004,0.948 ± 0.011,0.873 ± 0.006
+HotpotQA subset,Semantic (128),0.867 ± 0.004,0.920 ± 0.003,0.941 ± 0.011,0.866 ± 0.004
+HotpotQA subset,Semantic (256),0.869 ± 0.003,0.920 ± 0.006,0.947 ± 0.010,0.871 ± 0.005
+NFCorpus,No chunking (baseline) [baseline],0.127,0.162,0.530,0.344
+NFCorpus,Fixed-length (128),0.124,0.165,0.538,0.341
+NFCorpus,Fixed-length (256),0.131,0.170,0.530,0.347
+NFCorpus,Recursive (128),0.132,0.172,0.543,0.350
+NFCorpus,Recursive (256),0.132,0.167,0.540,0.352
+NFCorpus,Semantic (128),0.136,0.170,0.551,0.353
+NFCorpus,Semantic (256),0.131,0.166,0.548,0.350

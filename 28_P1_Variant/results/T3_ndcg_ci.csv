@@ -1,0 +1,15 @@
+Dataset,Strategy,NDCG@10,95% bootstrap CI,Queries (pooled over seeds)
+HotpotQA subset,No chunking (baseline),0.873,"[0.864, 0.882]",1500
+HotpotQA subset,Fixed-length (128),0.843,"[0.833, 0.854]",1500
+HotpotQA subset,Fixed-length (256),0.873,"[0.863, 0.882]",1500
+HotpotQA subset,Recursive (128),0.871,"[0.861, 0.880]",1500
+HotpotQA subset,Recursive (256),0.873,"[0.864, 0.882]",1500
+HotpotQA subset,Semantic (128),0.866,"[0.857, 0.876]",1500
+HotpotQA subset,Semantic (256),0.871,"[0.862, 0.880]",1500
+NFCorpus,No chunking (baseline),0.344,"[0.307, 0.375]",323
+NFCorpus,Fixed-length (128),0.341,"[0.304, 0.373]",323
+NFCorpus,Fixed-length (256),0.347,"[0.311, 0.380]",323
+NFCorpus,Recursive (128),0.350,"[0.312, 0.383]",323
+NFCorpus,Recursive (256),0.352,"[0.314, 0.384]",323
+NFCorpus,Semantic (128),0.353,"[0.315, 0.385]",323
+NFCorpus,Semantic (256),0.350,"[0.311, 0.383]",323

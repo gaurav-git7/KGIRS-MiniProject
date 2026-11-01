@@ -1,0 +1,15 @@
+Dataset,Strategy,Chunks,Mean tokens/chunk,Chunking time (s),Embedding time (s),Indexing time (s)
+HotpotQA subset,No chunking (baseline) [baseline],"4,929",123,0.00,16.37,16.37
+HotpotQA subset,Fixed-length (128),"7,074",86,2.11,13.50,15.60
+HotpotQA subset,Fixed-length (256),"5,150",118,2.04,14.92,16.96
+HotpotQA subset,Recursive (128),"7,213",84,9.50,13.74,23.24
+HotpotQA subset,Recursive (256),"5,153",118,4.88,16.20,21.08
+HotpotQA subset,Semantic (128),"8,877",68,20.14,15.49,35.63
+HotpotQA subset,Semantic (256),"6,563",92,20.12,14.83,34.95
+NFCorpus,No chunking (baseline) [baseline],"3,633",355,0.00,31.81,31.81
+NFCorpus,Fixed-length (128),"11,901",109,3.63,27.37,31.00
+NFCorpus,Fixed-length (256),"6,843",189,3.60,28.61,32.21
+NFCorpus,Recursive (128),"13,340",97,23.90,31.22,55.12
+NFCorpus,Recursive (256),"7,040",183,21.65,32.31,53.96
+NFCorpus,Semantic (128),"15,689",82,43.28,32.66,75.94
+NFCorpus,Semantic (256),"9,308",139,43.21,35.53,78.73
