@@ -1,6 +1,0 @@
-id,type,gold,naive,pred_naive,n_correct,disagree
-q03,inference,Federal Reserve,False,Insufficient information,0,False
-q11,inference,Sportsbooks,False,Insufficient information,0,False
-q18,comparison,Yes,False,No,0,False
-q19,comparison,Yes,False,Insufficient information,0,False
-q20,comparison,no,False,Insufficient information,0,False
